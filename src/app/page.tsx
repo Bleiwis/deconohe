@@ -9,10 +9,22 @@ import five from "assets/5.jpg";
 import six from "assets/6.jpg";
 import seven from "assets/7.jpg";
 import eight from "assets/8.jpg";
+import nine from "assets/9.png";
 import Image from "next/image";
 
 export default function Home() {
-  const imageList = [zero, one, two, three, four, five, six, seven, eight];
+  const imageList = [
+    zero,
+    one,
+    two,
+    three,
+    four,
+    five,
+    six,
+    seven,
+    eight,
+    nine,
+  ];
   return (
     <Grid container style={{ justifyContent: "center" }} spacing={2}>
       {imageList.map((img, k) => (
